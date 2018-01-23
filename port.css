@@ -1,0 +1,74 @@
+/*This will begin the overall layout of the page*/
+.main-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main-body {
+  text-align: center;
+  width: 900px;
+  margin: auto;
+  background-color: white;
+}
+body {
+  background-image: url("port_images/darkleaf.jpeg");
+}
+h1 {
+  font-size: 38px;
+}
+ul {
+  padding-left: 60px;
+  padding-right: 50px;
+  list-style: none;
+  float: left;
+}
+ li {
+  float: left;
+  padding: inherit;
+  margin-right: 40px;
+  margin-bottom: 15px;
+}
+img {
+
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4 {
+  font-family: 16px/1.5 "Apercu Light", sans-serif;
+}
+/*Dark Woods gallery areas*/
+
+.woods {
+  box-sizing: content-box;
+}
+.crossarm {
+  float: left;
+}
+
+/*Bridge gallery area*/
+
+.bridge {
+  box-sizing: content-box;
+}
+.pope {
+  float: left;
+}
+
+/*abandonded gallery area*/
+
+.abandonded {
+  box-sizing: content-box;
+}
+.Todd {
+  float: left;
+}
+
+@media query (max-width: 1120px;){
+
+}
+/*float elements*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
