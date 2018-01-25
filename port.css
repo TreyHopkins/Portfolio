@@ -14,7 +14,7 @@ body {
 }
 a {
   text-decoration: none;
-  color:#3d4246;
+  color:#3d4246 !important;
 }
 h1 {
   font-size: 38px;
@@ -26,7 +26,7 @@ h1 {
 }
  li {
   display: inline;
-  font-family: "Work Sans","HelveticaNeue","Helvetica Neue",sans-serif;
+  font-family: "Work Sans","HelveticaNeue","Helvetica Neue",sans-serif !important;
   font-size: 14px;
 }
 
@@ -35,49 +35,24 @@ img {
 }
 p {
   font-size: 13px;
-  font-family: "Work Sans","HelveticaNeue","Helvetica Neue",sans-serif;
+  font-family: "Work Sans","HelveticaNeue","Helvetica Neue",sans-serif !important;
   color: #3d4246;
   line-height: 1.5;
 }
 h1, h2, h3, h4 {
-  font-family: "Big Caslon","Book Antiqua","Palatino Linotype",Georgia,serif;
+  font-family: "Big Caslon","Book Antiqua","Palatino Linotype",Georgia,serif !important;
     font-weight: 400;
+    text-align: center;
 }
 footer, ul {
   text-align: center;
-}
-/*Dark Woods gallery areas*/
-
-.woods {
-  box-sizing: content-box;
-}
-.crossarm {
-  float: left;
+  margin-top: 40px;
+  margin-bottom: 0;
 }
 
-/*Bridge gallery area*/
-
-.bridge {
-  box-sizing: content-box;
-}
-.pope {
-  float: left;
-}
-
-/*abandonded gallery area*/
-
-.abandonded {
-  box-sizing: content-box;
-}
-.Todd {
-  float: left;
-}
-
-@media query (max-width: 1120px;){
-
-}
 /*float elements*/
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
