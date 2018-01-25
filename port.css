@@ -7,7 +7,10 @@
   text-align: center;
   width: 900px;
   margin: auto;
-  background-color: white;
+  background-color: #fff;
+}
+body {
+  background-color: #fff;
 }
 a {
   text-decoration: none;
@@ -34,9 +37,11 @@ p {
   font-size: 13px;
   font-family: "Work Sans","HelveticaNeue","Helvetica Neue",sans-serif;
   color: #3d4246;
+  line-height: 1.5;
 }
 h1, h2, h3, h4 {
-  font-family: 16px/1.5 "Apercu Light", sans-serif;
+  font-family: "Big Caslon","Book Antiqua","Palatino Linotype",Georgia,serif;
+    font-weight: 400;
 }
 footer, ul {
   text-align: center;
