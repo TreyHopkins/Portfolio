@@ -50,8 +50,10 @@ footer, ul {
   margin-bottom: 0;
 }
 /*MODAL*/
-button {
+input {
+  width: 100%;
   
+
 }
 .modal-login {
   display: none;

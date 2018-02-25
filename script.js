@@ -4,6 +4,9 @@ var button = document.getElementById('modalBtn');
 
 var Closebtn = document.getElementsByClassName('Closebtn')[0];
 
+var loginbtn = document.getElementById('submit-login');
+var signupbtn = document.getElementById('submit-signup');
+
 modalBtn.addEventListener('click', openModal);
 
 function openModal(){
@@ -16,3 +19,15 @@ function closeModal() {
   modal.style.display ='none';
 
 }
+
+$('.login').submit(function (event) {
+  event.preventDefault();
+  $('#name').val();
+  $('#email').val();
+  $('#username').val();
+
+  $('#SimpleModal').hide();
+});
+
+
+/*LOGIN VALUES ARE TO BE STORED IN SERVER ONCE KNOWLEDGE OF BACKEND IS GAINED

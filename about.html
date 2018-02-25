@@ -19,7 +19,7 @@
 
              <li><a href="">Meet</a></li>
              <li><a href="port.html">Home</a></li>
-             <li><a href="">Login</a></li>
+             <li><a href="#" id="modalBtn">Login</a></li>
              <li><a href="">Contact</a></li>
 
            </ul>
@@ -29,6 +29,7 @@
 <div class="container-fluid">
     <h2>About</h2>
     <img src="port_images/bricks.jpg" width=300px alt="picture of bricks from building">
+
     <div class="col-sm">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -57,6 +58,46 @@
         PageMaker including versions of Lorem Ipsum.</p>
     </div>
 </div>
+
+
+<div id="SimpleModal" class="modal-login">
+
+  <div class="modal-content">
+    <span class="Closebtn">&times</span>
+    <h1> The Dark Collection</h1>
+
+    <div class="table">
+     <ul>
+       <li><a href="port.html">Home</a></li>
+       <li><a href="about.html">About</a></li>
+       <li><a href="login.html">Login</a></li>
+       <li><a href="">Contact</a></li>
+     </ul>
+     </div>
+      <h2>Login</h2>
+
+      <form class="updates" action="port.html" method="post">
+
+
+            <fieldset class="login-info">
+              <legend><span class="number"></span></legend>
+                <form action="login.html" method="post">
+                <label for="name">Username:</label>
+                  <input type="text" placeholder="Enter username" id="name" name="user_name">
+                <label for="email">Email:</label>
+                  <input type="email" placeholder="Enter email" id="email" name="user_email">
+                <label for="password">Password:</label>
+                  <input type="password" placeholder="Enter password" id="password" name="user_password">
+                  <button id="submit-login">Submit</submit>
+
+            </fieldset>
+
+          </form>
+        </div>
+      </div>
+
+      
+ <script src="script.js"></script>
   </body>
 
   <footer>
