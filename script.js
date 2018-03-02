@@ -28,6 +28,3 @@ $('.login').submit(function (event) {
 
   $('#SimpleModal').hide();
 });
-
-
-/*LOGIN VALUES ARE TO BE STORED IN SERVER ONCE KNOWLEDGE OF BACKEND IS GAINED
