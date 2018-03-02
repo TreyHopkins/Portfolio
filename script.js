@@ -12,19 +12,22 @@ modalBtn.addEventListener('click', openModal);
 function openModal(){
   modal.style.display = 'block';
 
-}
+};
 Closebtn.addEventListener('click', closeModal);
 
 function closeModal() {
   modal.style.display ='none';
 
-}
+};
+$(function(){
 
-$('.login').submit(function (event) {
-  event.preventDefault();
-  $('#name').val();
-  $('#email').val();
-  $('#username').val();
+      $('.login').submit(function (event) {
+        event.preventDefault();
+        $('#name').val();
+        $('#email').val();
+        $('#username').val();
 
-  $('#SimpleModal').hide();
-});
+        $('#SimpleModal').hide();
+      });
+
+)};
