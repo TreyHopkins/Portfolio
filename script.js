@@ -12,14 +12,14 @@ modalBtn.addEventListener('click', openModal);
 function openModal(){
   modal.style.display = 'block';
 
-};
+}
 Closebtn.addEventListener('click', closeModal);
 
 function closeModal() {
   modal.style.display ='none';
 
-};
-$(function(){
+}
+
 
       $('.login').submit(function (event) {
         event.preventDefault();
@@ -29,5 +29,3 @@ $(function(){
 
         $('#SimpleModal').hide();
       });
-
-)};
