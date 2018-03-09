@@ -4,13 +4,16 @@
     <title>Trey Hopkins' Dark Collection</title>
     <link rel="stylesheet" href="port.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="jquery.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <script src="jquery.js"></script>
+
 </head>
 <body class="container">
   <section class="main-body">
+
+
 
         <header class="main-header">
           <h1>The Place.</h1>
@@ -25,14 +28,16 @@
 
         </header>
 
-        <img src="port_images/Place.jpg" alt="Todd with a brick in his hand" width="800" height="500" bm=5px>
+
+
+
+        <img src="port_images/Place.jpg" class="img-responsive" alt="Todd with a brick in his hand" width=100% height="500">
 
 
 
         <p class="opener">The place is a progressive outlet for artist to showcase their in all forms.
 
         </p>
-
 
 
 
@@ -76,7 +81,7 @@
     <div class="Bridge">
           <h4>October, Two Thousand Seventeen.</h4>
           <div class="col-md-7">
-          <img src="port_images/Trey2.jpg" width="450" alt="bridge in KY" class="pope">
+          <img src="port_images/Trey2.jpg" class="img-responsive" width="450" alt="bridge in KY" class="pope">
         </div>
         <div class="col-md-5">
           <p class="para_2">This gallery is a small collection of dark photos taken upon the pope lick bridge
@@ -120,7 +125,7 @@
 </div>
 
 <div class="container-fluid">
-    <div class="clearfix">
+    <div class="clearfix" class="mb-2">
       <div class="Speed">
             <h4>December, Two Thousand Sixteen.</h4>
           <div class="col-md-5">
@@ -145,16 +150,7 @@
     </div>
 </div>
 
- <footer>
 
-   <ul>
-     <li><a href="">Facebook</a></li>
-     <li><a href="">Instagram</a></li>
-     <li><a href="">Twitter</a></li>
-     <li><a href="https://github.com/LordHopkins">Github</a></li>
-   </ul>
-
- </footer>
  </section>
 
 
@@ -192,8 +188,47 @@
          </div>
        </div>
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="mx-auto">
 
- <script src="script.js"></script>
+       <div id="map"></div>
+           <script>
+             function initMap() {
+               var uluru = {lat: 38.178077, lng: -85.666708};
+               var map = new google.maps.Map(document.getElementById('map'), {
+                 zoom: 8,
+                 center: uluru
+               });
+               var marker = new google.maps.Marker({
+                 position: uluru,
+                 map: map
+               });
+             }
+           </script>
+
+
+        </div>
+    </div>
+</div>
+
+<footer>
+
+  <ul>
+    <li><a href="">Facebook</a></li>
+    <li><a href="">Instagram</a></li>
+    <li><a href="">Twitter</a></li>
+    <li><a href="https://github.com/LordHopkins">Github</a></li>
+  </ul>
+
+</footer>
+
+
+
+ <script async defer
+ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBJ3KXt9pAPT12n_UBAocyEl4QzSAiJHo&callback=initMap">
+ </script>
+<script src="script.js"></script>
 </body>
 
 </html>

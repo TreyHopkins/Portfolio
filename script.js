@@ -1,14 +1,13 @@
 var modal = document.getElementById('SimpleModal');
 
-var button = document.getElementById('modalBtn');
+var linkbtn = document.getElementById('modalBtn');
 
 var Closebtn = document.getElementsByClassName('Closebtn')[0];
 
 var loginbtn = document.getElementById('submit-login');
 var signupbtn = document.getElementById('submit-signup');
 
-modalBtn.addEventListener('click', openModal);
-
+linkbtn.addEventListener('click', openModal);
 function openModal(){
   modal.style.display = 'block';
 
