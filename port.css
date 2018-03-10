@@ -49,6 +49,24 @@ footer, ul {
   margin-top: 40px;
   margin-bottom: 0;
 }
+/*carousel*/
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-caption p {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
 
 
 /*Google Map API*/
@@ -65,8 +83,6 @@ footer, ul {
 /*MODAL*/
 input {
   width: 100%;
-
-
 }
 .modal-login {
   display: none;
