@@ -19,6 +19,10 @@ body {
   border-color: #fff !important;
   border-style: solid !important;
 }
+.column {
+margin-bottom: 100px;
+
+}
 a {
   text-decoration: none;
   color:#3d4246 !important;
@@ -57,7 +61,10 @@ footer, ul {
   margin-bottom: 0;
 }
 
+
 /*carousel*/
+
+
 .carousel-inner img {
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%);

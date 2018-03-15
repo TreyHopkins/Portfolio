@@ -9,11 +9,16 @@ var signupbtn = document.getElementById('submit-signup');
 
 var frenchbtn = document.getElementById('language-chng');
 
+/*Function that opens the modal*/
+
 linkbtn.addEventListener('click', openModal);
 function openModal(){
   modal.style.display = 'block';
 
 }
+
+/*Closes the modal*/
+
 Closebtn.addEventListener('click', closeModal);
 
 function closeModal() {
@@ -21,6 +26,7 @@ function closeModal() {
 
 }
 
+/*Function that hides the modal upon submission*/
 
       $('.login').submit(function (event) {
         event.preventDefault();
@@ -31,6 +37,7 @@ function closeModal() {
         $('#SimpleModal').hide();
       });
 
+/*Function that changes the language of the title*/
 
   function chngText(){
     document.getElementById('main-title').innerHTML='Le Lieu';
