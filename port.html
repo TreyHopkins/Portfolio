@@ -23,7 +23,7 @@
 
      <div class="col-md-4">
       <header class="main-header">
-          <h1>The Place.</h1>
+          <h1 id='main-title'>The Place.</h1>
           <div class="table">
            <ul>
              <li><a href="">Meet</a></li>
@@ -42,9 +42,10 @@
       <a href="" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
       <span class="glyphicon glyphicon-globe"> </span></a>
       <ul class="dropdown-menu">
-        <li><a href="#">François</a></li>
+        <li><a href="#" id="language-chng" onclick="chngText()">François</a></li>
         <li><a href="#">Español</a></li>
         <li><a href="#">Deutch</a></li>
+        <li><a href="#" onclick="chngText_1()">English</a></li>
       </ul>
     <span class="glyphicon glyphicon-header"></span>
 
@@ -277,6 +278,7 @@
     <div class="col-md-8">
           <div class="row">
             <div class="col-sm-6 form-group">
+        <form action="mailto:andrewhopkins0313@gmail.com" method="post" enctype="text/plain">
               <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
             </div>
             <div class="col-sm-6 form-group">
@@ -288,6 +290,8 @@
           <div class="row">
             <div class="col-md-12 form-group">
               <button class="btn pull-right" type="submit">Send</button>
+
+        </form>
             </div>
         </div>
       </div>
