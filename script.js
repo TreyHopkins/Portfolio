@@ -40,8 +40,16 @@ function closeModal() {
 /*Function that changes the language of the title*/
 
   function chngText(){
-    document.getElementById('main-title').innerHTML='Le Lieu';
+    document.getElementById('main-title').innerHTML='Le Lieu.';
 }
   function chngText_1() {
     document.getElementById('main-title').innerHTML='The Place.';
+  }
+
+  function chngText_2() {
+      document.getElementById('main-title').innerHTML='El Lugar.'
+  }
+
+  function chngText_3() {
+      document.getElementById('main-title').innerHTML='Der Ort.'
   }
