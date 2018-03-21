@@ -1,19 +1,49 @@
-This is a photo gallery webpage.
+This is an art gallery webpage.
+
+The purpose of this page is to bring attention to artists who have gone under the
+radar and deserve higher recognition. This website is intended to be viewed by
+the public but only to be edited by designated writers and admins. We hope to
+create a large community of artists who will contribute on a large scale.
 
 HTML:
 
-port.html is the main HTML file to open the webpage.
+port.html is the main HTML file.
 
-////////
-///////
+The bootstrap framework was implemented to add interactivity to the viewport.
+
+(.dropdown) The dropdown menu function from bootstrap was also added to the port.html heading.
+
+(#contact-section) A contact section was added using the columns sizing with bootstrap.
+
+(#SimpleModal) This modal form was added to allow users to login and signup for notifications
+when the webpage has been updated.
+
+#map -- A Google Maps API was added to show location of the place.
+
 
 CSS:
 
 port.css is the main CSS file for the webpage.
 
-///////
+.modal-login-- this class edits the modal login appearance and also hides the modal.
+
+.carousel-inner -- This rule adds style to the carousels size and color scale.
+
+#map -- styles were added to the map to size it and add a grayscale color.
+
 
 
 JAVASCRIPT:
 
 script.js is the main JS file for the Webpage.
+
+functions :
+
+openModal() -- displays the login modal upon clicking "Login"
+
+closeModal() -- closes the modal when clicking the X button on the modal.
+
+preventDefault() -- prevents the page from changing when clicking "submit".
+
+chngText() -- changes the title of the home page to French, Spanish or German from the
+bootstrap dropdown.
